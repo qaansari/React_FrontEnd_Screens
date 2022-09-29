@@ -313,6 +313,14 @@ p {
   background: #fff;
 }
 .center_sub_card {
+  height: 300px;
+  width: 20rem;
+  margin: 0 10px;
+  align-items: center;
+  background: #28282b;
+  color: #fff;
+}
+.center_sub_card:first-child {
   height: 400px;
   width: 20rem;
   margin: 0 10px;
@@ -325,7 +333,7 @@ p {
   height: 250px;
 }
 .footer_card {
-  height: 450px;
+  height: 300px;
 }
 .footer_sub_card {
   height: 200px;
@@ -472,4 +480,18 @@ p {
   text-transform: uppercase;
   color: #fff;
   font-weight: 300;
+}
+.btn_global {
+  background: #50c878;
+  margin-top: 20px;
+}
+.buy_btn_txt {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+.qr_code {
+  width: 60px;
+  height: 60px;
 }
