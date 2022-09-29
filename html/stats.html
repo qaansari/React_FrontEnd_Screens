@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="
+    https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>NFT Art Generator</title>
+  </head>
+  <body>
+    <div class="top_head"><h3 class="head_txt">Top Banner</h3></div>
+    <!-- Left-Side navigation -->
+    <div class="sidenav_left">
+      <a href="#"><i class="fa fa-bars"></i></a>
+      <a href="#"><i class="fa fa-btc"></i></a>
+      <a href="#">NFT</a>
+      <a href="#"><i class="fa fa-exchange"></i></a>
+      <a href="#"><i class="fa fa-pie-chart"></i></a>
+      <a href="#"><i class="fa fa-eye"></i></a>
+      <a href="#"><i class="fa fa-globe"></i></a>
+      <a href="#"><i class="fa fa-question-circle"></i></a>
+    </div>
+    <!-- Main-Body-Wrapper Starts -->
+    <div class="wrapper">
+      <div class="container">
+        <div class="card main_card_wrapper">
+          <div class="card-body">
+            <!-- Sub Cards -->
+            <div class="row">
+              <div class="col-md-12">
+                <div id="chart_div" class="stats_line_chart"></div>
+              </div>
+              <div class="col-md-6">
+                <div class="card lower_sub_card">
+                  <div class="card-body">
+                    <h5 class="card-title">Order Form</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card lower_sub_card">
+                  <div class="card-body">
+                    <h5 class="card-title">Orders / Wallet</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Main-Body-Wrapper Ends -->
+    <!-- Right-Side navigation -->
+    <div class="sidenav_right">
+      <a href="#"><i class="fa fa-power-off"></i></a>
+      <a href="#"><i class="fa fa-history"></i></a>
+      <a href="#"><i class="fa fa-th-list"></i></a>
+      <a href="#"><i class="fa fa-comment"></i></a>
+      <a href="#"><i class="fa fa-newspaper-o"></i></a>
+      <a href="#"><i class="fa fa-bell"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-youtube-play"></i></a>
+    </div>
+    <div class="page_footer"><h3 class="footer_txt">Bottom Banner</h3></div>
+  </body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.js"></script>
+<script
+  type="text/javascript"
+  src="https://www.gstatic.com/charts/loader.js"
+></script>
+<script type="text/javascript">
+  google.charts.load("current", { packages: ["corechart"] });
+  google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+      ["Year", "Sales", "Expenses"],
+      ["2013", 1000, 400],
+      ["2014", 1170, 460],
+      ["2015", 660, 1120],
+      ["2016", 1030, 540],
+    ]);
+
+    var options = {
+      title: "Company Performance",
+      hAxis: { title: "Year", titleTextStyle: { color: "#333" } },
+      vAxis: { minValue: 0 },
+    };
+
+    var chart = new google.visualization.AreaChart(
+      document.getElementById("chart_div")
+    );
+    chart.draw(data, options);
+  }
+</script>

@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.top_head {
+  background: #444444;
+  color: #fff;
+  margin-bottom: 10px;
+  top: 0;
+  position: sticky;
+  height: 7vh;
+  text-align: center;
+}
+.head_txt {
+  padding: 15px;
+}
+
+/* The sidebar menu */
+.sidenav_left {
+  margin: 7vh 0;
+  height: 100vh; /* Full-height: remove this if you want "auto" height */
+  width: 100px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  float: left;
+  left: 0;
+  background-color: #444444; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav_left a {
+  border-bottom: 1px solid #555;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  font-size: 36px;
+  text-align: center;
+}
+.sidenav_left a:first-child {
+  border: none !important;
+  margin-bottom: 50px;
+}
+.sidenav_left a:last-child {
+  border: none;
+  margin-top: 5px;
+}
+.sidenav_left a:nth-child(7) {
+  border: none;
+  margin-top: 100px;
+}
+.sidenav_right {
+  margin-top: 7vh;
+  height: 100vh; /* Full-height: remove this if you want "auto" height */
+  width: 100px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  float: right;
+  right: 0;
+  background-color: #444444; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav_right a {
+  border-bottom: 1px solid #555;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  font-size: 36px;
+  text-align: center;
+}
+.sidenav_right a:first-child {
+  border: none;
+  margin-bottom: 50px;
+}
+/* Card */
+
+.dap_head {
+  background: rgb(13, 109, 219);
+  text-align: center;
+  font-size: 48px;
+  height: 10vh;
+  font-weight: bold;
+  color: #fff;
+}
+.sub_card {
+  background: rgba(104, 160, 224, 0.534);
+  color: #fff;
+  text-align: center;
+}
+.main_card {
+  height: 600px;
+  margin: auto 0 !important;
+}
+.card-footer {
+  background: rgb(13, 109, 219);
+}
+.center_main_card {
+  height: 400px;
+}
+.center_sub_card {
+  height: 350px;
+  width: 20rem;
+  margin: 0 10px;
+}
+.card-img-top {
+  width: 100%;
+  height: 250px;
+}
+.footer_card {
+  height: 450px;
+}
+.footer_sub_card {
+  height: 250px;
+  background: rgba(104, 160, 224, 0.534);
+  color: #fff;
+  text-align: center;
+}
+.cntr_card_body {
+  margin-top: -40px;
+}
+.cntr_card_body p {
+  margin-top: -5px;
+}
+
+/* Footer */
+
+.page_footer {
+  background: #444444;
+  color: #fff;
+  margin-top: 223px;
+  position: sticky;
+  height: 7vh;
+  text-align: center;
+}
+.footer_txt {
+  padding: 15px;
+}
+/* Card Wrappers (Center) */
+.main_card_wrapper {
+  height: 600px;
+  border-radius: 0;
+  width: 1300px;
+  top: 30px;
+}
+
+.lower_sub_card {
+  height: 150px;
+  background: rgb(13, 109, 219);
+  color: #fff;
+  top: 20px;
+  font-weight: 600;
+}
+
+/* Form Style */
+.inp_field {
+  width: 100%;
+}
+.btn_save {
+  background: rgb(13, 109, 219);
+  color: #fff;
+}
+.btn_save:hover {
+  background: rgb(9, 118, 243) !important;
+  color: #fff !important;
+}
