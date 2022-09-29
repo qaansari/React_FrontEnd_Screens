@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import CanvasJSReact from "../CanvasJs/canvasjs.react";
+import CanvasJSReact from "./CanvasJs/canvasjs.react.js";
 var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
 class TimeSeriesChart extends Component {

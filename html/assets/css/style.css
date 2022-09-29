@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 p {
   margin-left: 5px;
@@ -106,7 +107,7 @@ p {
 .bookmark_ico {
   position: absolute;
   transform: rotate(90deg);
-  color: #e74444;
+  color: #ff0000;
   right: 285px;
   bottom: 42px;
 }
@@ -121,32 +122,32 @@ p {
 }
 
 .p_txt_left_one {
-  color: #e74444 !important;
+  color: #ff0000 !important;
   right: 170px;
   font-size: 16px;
 }
 .p_txt_left_two {
   position: relative;
-  color: #e74444 !important;
+  color: #ff0000 !important;
   right: -5px !important;
   font-size: 16px;
 }
 .p_txt_left_three {
   position: relative;
-  color: #e74444 !important;
+  color: #ff0000 !important;
   right: -8px !important;
   font-size: 16px;
 }
 .bookmark_ico_two {
   position: absolute;
   transform: rotate(90deg);
-  color: #e74444;
+  color: #ff0000;
   right: 285px;
   bottom: 42px;
 }
 .circle_ico_two {
   position: absolute;
-  color: #2ddf77;
+  color: #33ff33;
   right: 263px;
   bottom: 42px;
 }
@@ -157,51 +158,51 @@ p {
 }
 .p_txt_left_two_sec {
   position: relative;
-  color: #e74444 !important;
+  color: #ff0000 !important;
   right: -5px !important;
   font-size: 16px;
 }
 .p_txt_left_three_sec {
   position: relative;
-  color: #e74444 !important;
+  color: #ff0000 !important;
   right: -8px !important;
   font-size: 16px;
 }
 .bookmark_ico_three {
   position: absolute;
   transform: rotate(90deg);
-  color: #e74444;
+  color: #ff0000;
   right: 285px;
   bottom: 42px;
 }
 .circle_ico_three {
   position: absolute;
-  color: #2ddf77;
+  color: #33ff33;
   right: 263px;
   bottom: 42px;
 }
 
 .p_txt_left_one_three {
-  color: #2ddf77 !important;
+  color: #33ff33 !important;
   right: 170px;
   font-size: 16px;
 }
 .p_txt_left_two_three {
   position: relative;
-  color: #e74444 !important;
+  color: #ff0000 !important;
   right: -5px !important;
   font-size: 16px;
 }
 .p_txt_left_three_three {
   position: relative;
-  color: #e74444 !important;
+  color: #ff0000 !important;
   right: -8px !important;
   font-size: 16px;
 }
 .bookmark_ico_four {
   position: absolute;
   transform: rotate(90deg);
-  color: #e74444;
+  color: #ff0000;
   right: 285px;
   bottom: 42px;
 }
@@ -213,19 +214,19 @@ p {
 }
 
 .p_txt_left_one_four {
-  color: #2ddf77 !important;
+  color: #33ff33 !important;
   right: 170px;
   font-size: 16px;
 }
 .p_txt_left_two_four {
   position: relative;
-  color: #2ddf77 !important;
+  color: #33ff33 !important;
   right: -5px !important;
   font-size: 16px;
 }
 .p_txt_left_three_four {
   position: relative;
-  color: #2ddf77 !important;
+  color: #33ff33 !important;
   right: -8px !important;
   font-size: 16px;
 }
@@ -266,7 +267,7 @@ p {
   background: rgb(13, 109, 219);
   text-align: center;
   font-size: 48px;
-  height: 10vh;
+  height: 12vh;
   font-weight: bold;
   color: #fff;
 }
@@ -276,17 +277,18 @@ p {
   text-align: center;
 }
 .main_card {
-  height: 600px;
-  margin: auto 0 !important;
+  height: 800px;
+  top: 0;
 }
 
 .center_main_card {
-  height: 400px;
+  height: 600px;
 }
 .center_sub_card {
-  height: 350px;
+  height: 300px;
   width: 20rem;
   margin: 0 10px;
+  align-items: center;
 }
 .card-img-top {
   width: 100%;
@@ -297,7 +299,7 @@ p {
 }
 .footer_sub_card {
   height: 250px;
-  background: rgba(104, 160, 224, 0.534);
+  background: rgb(13, 109, 219);
   color: #fff;
   text-align: center;
 }
@@ -307,11 +309,80 @@ p {
 .cntr_card_body p {
   margin-top: -5px;
 }
+/* Main_sidnav_right */
+.Main_sidenav_right {
+  margin: 7vh 0 0 0;
+  height: 100vh; /* Full-height: remove this if you want "auto" height */
+  width: 300px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  float: right;
+  right: 100px;
+  background-color: #28282b; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+.h_1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 2 px;
+  /* background-color: #555; */
+  border-bottom: 1px solid #555;
+}
 
+.m_head {
+  color: #fff;
+  margin-right: 5px;
+  font-size: 12px;
+  border-bottom: 1px solid #555;
+  margin-left: 3px;
+}
+.hed {
+  color: #0584f1;
+  font-size: 20px;
+  margin-top: 5px;
+  border-bottom: 1px solid #555;
+  text-align: center;
+}
+/* hr{
+  color:  #fff;
+33ff33
+
+
+  margin-top: 5px;
+} */
+.p_1 {
+  color: #fff;
+  margin-left: 3px;
+  top: 0;
+}
+.p_2 {
+  color: #ff0000;
+}
+.p_4 {
+  color: #ff0000;
+  margin-left: 3px;
+}
+.p_0 {
+  color: #fff;
+  margin-left: 65px;
+}
+.p_3 {
+  color: #33ff33;
+}
+.h_f {
+  border-bottom: 1px solid #555;
+}
+.Main_sidenav_right {
+  border: none;
+  margin-bottom: 50px;
+}
 /* Footer */
 .p_footer {
   position: relative;
-  bottom: -823px;
+  margin-top: 25px;
+  bottom: 0;
   background: #28282b;
   height: 7vh;
 }
@@ -324,13 +395,13 @@ p {
 }
 /* Card Wrappers */
 .main_card_wrapper {
-  height: 600px;
-  top: 100px;
+  height: 800px;
+  top: 0;
   border-radius: 0;
 }
 
 .lower_sub_card {
-  height: 200px;
+  height: 400px;
   background: rgb(13, 109, 219);
   color: #fff;
   font-weight: 600;
