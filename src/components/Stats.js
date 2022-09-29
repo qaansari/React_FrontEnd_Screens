@@ -1,3 +1,4 @@
+
 import TimeSeriesChart from "./TimeSeriesChart.js";
 function Stats({}) {
   return (
@@ -32,11 +33,13 @@ function Stats({}) {
                   </div>
                 </div>
               </div>
+ 
+
             </div>
           </div>
         </div>
       </div>
-    </div>
+      </div>
   );
 }
 export default Stats;
