@@ -25,7 +25,7 @@ function App() {
       <LeftMainSidebar />
       {/* Main-Left-Sidebar-Ends */}
       {/* Main Card Starts */}
-      {/* <Card /> */}
+      <Card />
       {/* Main Card Ends */}
       {/* Stats Section Starts */}
       {/* <Stats /> */}
