@@ -1,273 +1,81 @@
+import LeftMainSidebarData from "./LeftMainSidebarData";
+
 function LeftMainSidebar({}) {
+  const dataServices = [
+    {
+      data: "UTC09",
+      figure1: "1458.75",
+      figure2: "800.83",
+      figure3: "89.97",
+      icon1: "fa fa-bookmark bookmark_ico",
+      icon2: "fa fa-gg-circle circle_ico",
+      FigOne: "p_txt_left",
+      FigTwo: "p_txt_left_two",
+      FigThree: "p_txt_left_three",
+    },
+    {
+      data: "UTC06",
+      figure1: "1458.75",
+      figure2: "800.83",
+      figure3: "89.97",
+      icon1: "fa fa-bookmark bookmark_ico",
+      icon2: "fa fa-info-circle circle_ico3",
+      FigOne: "p_txt_left_one",
+      FigTwo: "p_txt_left_two_sec",
+      FigThree: "p_txt_left_three_three",
+    },
+    {
+      data: "UTC08",
+      figure1: "1878.75",
+      figure2: "974.83",
+      figure3: "715.97",
+      icon1: "fa fa-bookmark bookmark_ico2",
+      icon2: "fa fa-circle circle_ico3",
+      FigOne: "p_txt_left_one_sec",
+      FigTwo: "p_txt_left_one_sec",
+      FigThree: "p_txt_left_one_sec",
+    },
+    {
+      data: "UTC08",
+      figure1: "1200.55",
+      figure2: "998.76",
+      figure3: "125.98",
+      icon1: "fa fa-bookmark bookmark_ico2",
+      icon2: "fa fa-gg-circle circle_ico2",
+      FigOne: "p_txt_left_one_sec",
+      FigTwo: "p_txt_left_two",
+      FigThree: "p_txt_left_three_three",
+    },
+    {
+      data: "UTC09",
+      figure1: "1458.75",
+      figure2: "800.83",
+      figure3: "89.97",
+      icon1: "fa fa-bookmark bookmark_ico",
+      icon2: "fa fa-gg-circle circle_ico",
+      FigOne: "p_txt_left_one",
+      FigTwo: "p_txt_left_two",
+      FigThree: "p_txt_left_three",
+    },
+  ];
   return (
     <div class="col-md-3">
       <div class="main_sidebar_left">
         <a href="#">NFT</a>
-        <a class="main_sidebar_links">
-          <ul>
-            <li>
-              <i class="fa fa-bookmark bookmark_ico"></i>
-            </li>
-            <li>
-              <i class="fa fa-gg-circle circle_ico"></i>
-            </li>
-            <li class="p_main_txt_left">
-              <p>UTC05</p>
-            </li>
-            <li class="p_txt_left_one">
-              <p>1500.00</p>
-            </li>
-            <li class="p_txt_left_two">
-              <p>-550.75</p>
-            </li>
-            <li class="p_txt_left_three">
-              <p>-54.45</p>
-            </li>
-          </ul>
-        </a>
-        <a class="main_sidebar_links">
-          <ul>
-            <li>
-              <i class="fa fa-bookmark bookmark_ico_two"></i>
-            </li>
-            <li>
-              <i class="fa fa-plus-circle circle_ico_two"></i>
-            </li>
-            <li class="p_main_txt_left">
-              <p>UTC09</p>
-            </li>
-            <li class="p_txt_left_one_sec">
-              <p>5000.00</p>
-            </li>
-            <li class="p_txt_left_two_sec">
-              <p>-756.58</p>
-            </li>
-            <li class="p_txt_left_three_sec">
-              <p>-49.68</p>
-            </li>
-          </ul>
-        </a>
-        <a class="main_sidebar_links">
-          <ul>
-            <li>
-              <i class="fa fa-bookmark bookmark_ico_three"></i>
-            </li>
-            <li>
-              <i class="fa fa-plus-circle circle_ico_three"></i>
-            </li>
-            <li class="p_main_txt_left">
-              <p>UTC07</p>
-            </li>
-            <li class="p_txt_left_one_three">
-              <p>7541.00</p>
-            </li>
-            <li class="p_txt_left_two_three">
-              <p>-684.91</p>
-            </li>
-            <li class="p_txt_left_three_three">
-              <p>-65.98</p>
-            </li>
-          </ul>
-        </a>
-        <a class="main_sidebar_links">
-          <ul>
-            <li>
-              <i class="fa fa-bookmark bookmark_ico_four"></i>
-            </li>
-            <li>
-              <i class="fa fa-info-circle circle_ico_four"></i>
-            </li>
-            <li class="p_main_txt_left">
-              <p>UTC05</p>
-            </li>
-            <li class="p_txt_left_one_four">
-              <p>7541.00</p>
-            </li>
-            <li class="p_txt_left_two_four">
-              <p>-684.91</p>
-            </li>
-            <li class="p_txt_left_three_four">
-              <p>-65.98</p>
-            </li>
-          </ul>
-        </a>
-        <a class="main_sidebar_links">
-          <ul>
-            <li>
-              <i class="fa fa-bookmark bookmark_ico_two"></i>
-            </li>
-            <li>
-              <i class="fa fa-plus-circle circle_ico_two"></i>
-            </li>
-            <li class="p_main_txt_left">
-              <p>UTC09</p>
-            </li>
-            <li class="p_txt_left_one_sec">
-              <p>5000.00</p>
-            </li>
-            <li class="p_txt_left_two_sec">
-              <p>-756.58</p>
-            </li>
-            <li class="p_txt_left_three_sec">
-              <p>-49.68</p>
-            </li>
-          </ul>
-        </a>
-        <a class="main_sidebar_links">
-          <ul>
-            <li>
-              <i class="fa fa-bookmark bookmark_ico_four"></i>
-            </li>
-            <li>
-              <i class="fa fa-info-circle circle_ico_four"></i>
-            </li>
-            <li class="p_main_txt_left">
-              <p>UTC05</p>
-            </li>
-            <li class="p_txt_left_one_four">
-              <p>7541.00</p>
-            </li>
-            <li class="p_txt_left_two_four">
-              <p>-684.91</p>
-            </li>
-            <li class="p_txt_left_three_four">
-              <p>-65.98</p>
-            </li>
-          </ul>
-        </a>
-        <a class="main_sidebar_links">
-          <ul>
-            <li>
-              <i class="fa fa-bookmark bookmark_ico"></i>
-            </li>
-            <li>
-              <i class="fa fa-gg-circle circle_ico"></i>
-            </li>
-            <li class="p_main_txt_left">
-              <p>UTC05</p>
-            </li>
-            <li class="p_txt_left_one">
-              <p>1500.00</p>
-            </li>
-            <li class="p_txt_left_two">
-              <p>-550.75</p>
-            </li>
-            <li class="p_txt_left_three">
-              <p>-54.45</p>
-            </li>
-          </ul>
-        </a>
-
-        <a class="main_sidebar_links">
-          <ul>
-            <li>
-              <i class="fa fa-bookmark bookmark_ico_four"></i>
-            </li>
-            <li>
-              <i class="fa fa-info-circle circle_ico_four"></i>
-            </li>
-            <li class="p_main_txt_left">
-              <p>UTC05</p>
-            </li>
-            <li class="p_txt_left_one_four">
-              <p>7541.00</p>
-            </li>
-            <li class="p_txt_left_two_four">
-              <p>-684.91</p>
-            </li>
-            <li class="p_txt_left_three_four">
-              <p>-65.98</p>
-            </li>
-          </ul>
-        </a>
-        <a class="main_sidebar_links">
-          <ul>
-            <li>
-              <i class="fa fa-bookmark bookmark_ico_two"></i>
-            </li>
-            <li>
-              <i class="fa fa-plus-circle circle_ico_two"></i>
-            </li>
-            <li class="p_main_txt_left">
-              <p>UTC09</p>
-            </li>
-            <li class="p_txt_left_one_sec">
-              <p>5000.00</p>
-            </li>
-            <li class="p_txt_left_two_sec">
-              <p>-756.58</p>
-            </li>
-            <li class="p_txt_left_three_sec">
-              <p>-49.68</p>
-            </li>
-          </ul>
-        </a>
-        <a class="main_sidebar_links">
-          <ul>
-            <li>
-              <i class="fa fa-bookmark bookmark_ico_four"></i>
-            </li>
-            <li>
-              <i class="fa fa-info-circle circle_ico_four"></i>
-            </li>
-            <li class="p_main_txt_left">
-              <p>UTC05</p>
-            </li>
-            <li class="p_txt_left_one_four">
-              <p>7541.00</p>
-            </li>
-            <li class="p_txt_left_two_four">
-              <p>-684.91</p>
-            </li>
-            <li class="p_txt_left_three_four">
-              <p>-65.98</p>
-            </li>
-          </ul>
-        </a>
-        <a class="main_sidebar_links">
-          <ul>
-            <li>
-              <i class="fa fa-bookmark bookmark_ico_four"></i>
-            </li>
-            <li>
-              <i class="fa fa-info-circle circle_ico_four"></i>
-            </li>
-            <li class="p_main_txt_left">
-              <p>UTC05</p>
-            </li>
-            <li class="p_txt_left_one_four">
-              <p>7541.00</p>
-            </li>
-            <li class="p_txt_left_two_four">
-              <p>-684.91</p>
-            </li>
-            <li class="p_txt_left_three_four">
-              <p>-65.98</p>
-            </li>
-          </ul>
-        </a>
-        <a class="main_sidebar_links">
-          <ul>
-            <li>
-              <i class="fa fa-bookmark bookmark_ico_two"></i>
-            </li>
-            <li>
-              <i class="fa fa-plus-circle circle_ico_two"></i>
-            </li>
-            <li class="p_main_txt_left">
-              <p>UTC09</p>
-            </li>
-            <li class="p_txt_left_one_sec">
-              <p>5000.00</p>
-            </li>
-            <li class="p_txt_left_two_sec">
-              <p>-756.58</p>
-            </li>
-            <li class="p_txt_left_three_sec">
-              <p>-49.68</p>
-            </li>
-          </ul>
-        </a>
+        {dataServices.map((x) => (
+          <LeftMainSidebarData
+            data={x.data}
+            figure1={x.figure1}
+            figure2={x.figure2}
+            figure3={x.figure3}
+            icon1={x.icon1}
+            icon2={x.icon2}
+            MainText={x.MainText}
+            FigOne={x.FigOne}
+            FigTwo={x.FigTwo}
+            FigThree={x.FigThree}
+          />
+        ))}
       </div>
     </div>
   );

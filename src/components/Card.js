@@ -16,14 +16,15 @@ function Card({}) {
                         alt="Card image cap"
                       />
                       <div class="card-body cntr_card_body">
-                        <p>Edition 1</p>
-                        <h6>KILLZUKI Collection</h6>
-                        <h5>No.1</h5>
-                        <div class="row justify-content-center">
-                          <div class="col-md-8">
-                            <p>violence i dont like it </p>
+                        <div class="row">
+                          <div class="col-md-9 my-auto">
+                            <h4>Edition</h4>
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur,
+                              adipisicing elit. Ex dolorum vitae, maxime velit
+                            </p>
                           </div>
-                          <div class="col-md-4">
+                          <div class="col-md-3 my-auto">
                             <img
                               class="qr_code"
                               src="assets/img/images.png"
