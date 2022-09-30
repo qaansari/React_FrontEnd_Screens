@@ -1,7 +1,7 @@
 function Footer({ Footer_Text }) {
   return (
-    <div class="p_footer">
-      <h3 class="footer_text">Bottom Banner</h3>
+    <div class="foot">
+      <h3 class="footer_text">{Footer_Text}</h3>
     </div>
   );
 }

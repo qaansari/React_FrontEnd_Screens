@@ -25,6 +25,10 @@ function Right_Nav({}) {
       <a href="#">
         <i class="fa fa-youtube-play"></i>
       </a>
+
+      <a href="#">
+        <img src="assets/img/tiktok.png" class="tiktok" />
+      </a>
     </div>
   );
 }

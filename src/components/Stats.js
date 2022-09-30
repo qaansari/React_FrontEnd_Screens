@@ -2,17 +2,14 @@
 import TimeSeriesChart from "./TimeSeriesChart.js";
 function Stats({}) {
   return (
-    <div class="wrapper">
-      <div class="container">
+    <div class="col-md-6">
+      <div class="wrapper">
         <div class="card main_card_wrapper">
           <div class="card-body">
-            {/* Sub Cards */}
             <div class="row">
               <div class="col-md-12">
-                {/* Line Chart */}
                 <TimeSeriesChart />
               </div>
-
               <div class="col-md-6">
                 <div class="card lower_sub_card">
                   <div class="card-body">
