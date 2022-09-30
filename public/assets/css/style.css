@@ -158,22 +158,44 @@ p {
   right: 263px;
   bottom: 42px;
 }
-.p_main_txt_left {
+.circle_ico_red {
+  position: absolute;
+  color: #ff0000;
+  right: 263px;
+  bottom: 42px;
+}
+.p_main_txt_white {
   color: #fff;
 }
-.p_main_txt_left_green {
+.p_main_txt_green {
   color: #00ff37;
 }
-.p_main_txt_left_blue {
+.p_main_txt_blue {
   color: #2d7adf;
 }
-
+.p_main_txt_red {
+  color: #2d7adf;
+}
 .p_txt_left_red {
   color: #ff0000 !important;
   right: 170px;
   font-size: 16px;
 }
-
+.p_txt_left_green {
+  color: #00ff37 !important;
+  right: 170px;
+  font-size: 16px;
+}
+.p_txt_left_white {
+  color: #fff !important;
+  right: 170px;
+  font-size: 16px;
+}
+.p_txt_left_blue {
+  color: #2d7adf !important;
+  right: 170px;
+  font-size: 16px;
+}
 /* Right Navigation */
 
 .sidenav_right {
@@ -236,15 +258,15 @@ p {
   background: #fff;
 }
 .center_sub_card {
-  height: 340px;
+  height: 380px;
   width: 20rem;
-  margin: 0 50px;
+  margin: auto 50px;
   align-items: center;
   background: #28282b;
   color: #fff;
 }
 .center_sub_card:first-child {
-  height: 400px;
+  height: 420px;
   width: 20rem;
   margin: 0 10px;
   align-items: center;
@@ -302,7 +324,6 @@ p {
   border: none !important;
   position: relative;
   text-transform: uppercase;
-
   font-size: 36px;
   top: 0;
   padding: 0 20px 20px 20px;
@@ -417,4 +438,14 @@ p {
 .qr_code {
   width: 60px;
   height: 60px;
+}
+.inp_num {
+  width: 100px;
+  padding: 5px;
+}
+.btn_mint {
+  background: inherit;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
 }

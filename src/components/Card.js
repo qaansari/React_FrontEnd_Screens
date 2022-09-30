@@ -34,7 +34,6 @@ function Card({}) {
                         </div>
                       </div>
                     </div>
-
                     <div class="card center_sub_card">
                       <div class="mt-4">
                         <h3>PUBLIC MINT</h3>
@@ -43,6 +42,18 @@ function Card({}) {
                           elit.Lorem ipsum dolor sit amet consectetur
                           adipisicing elit.
                         </p>
+                        <div class="row justify-content-center">
+                          <div class="col-md-6">
+                            <input
+                              type="number"
+                              class="inp_num"
+                              placeholder="0"
+                            />
+                          </div>
+                          <div class="col-md-6">
+                            <button class="btn btn_mint">Mint Button</button>
+                          </div>
+                        </div>
                         <hr />
                         <h3 class="text-center">BULK BUYS</h3>
                         <div class="row">
