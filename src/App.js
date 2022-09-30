@@ -8,6 +8,9 @@ import MyForm from "./components/Form.js";
 import Right_Nav from "./components/Right_Nav.js";
 import Footer from "./components/Footer.js";
 import RightMainSidebar from "./components/RightMainSidebar";
+
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
 function App() {
   const HeaderServices = [{ Header_Text: "Top Banner" }];
   const FooterServices = [{ Footer_Text: "Bottom Banner" }];
@@ -20,25 +23,34 @@ function App() {
       {/* Header Ends */}
 
       {/* Left-Side navigation Starts */}
-      <Left_Nav />
-      {/* Left-Side navigation Ends */}
-      <div className="row">
-        {/* Main-Left-Sidebar-Starts */}
-        <LeftMainSidebar />
-        {/* Main-Left-Sidebar-Ends */}
-        {/* Main Card Starts */}
-        <Card />
-        {/* Main Card Ends */}
-        {/* Stats Section Starts */}
-        {/* <Stats /> */}
-        {/* Stats Section Ends */}
-        {/* Form Section Starts */}
-        {/* <MyForm /> */}
-        {/* Form Section Ends */}
-        {/* Main-Right-Sidebar-Starts */}
-        <RightMainSidebar />
-        {/* Main-Right-Sidebar-Ends */}
-      </div>
+      <Router>
+        <Left_Nav />
+
+        {/* Left-Side navigation Ends */}
+        <div className="row">
+          {/* Main-Left-Sidebar-Starts */}
+          <LeftMainSidebar />
+          {/* Main-Left-Sidebar-Ends */}
+          {/* Main Card Starts */}
+
+          <Routes>
+            <Route path="/" element={<Stats />}></Route>
+            <Route path="/bitcoin" element={<Card />}></Route>
+            <Route path="/nft" element={<Stats />}></Route>
+          </Routes>
+
+          {/* Main Card Ends */}
+          {/* Stats Section Starts */}
+          {/* <Stats /> */}
+          {/* Stats Section Ends */}
+          {/* Form Section Starts */}
+          {/* <MyForm /> */}
+          {/* Form Section Ends */}
+          {/* Main-Right-Sidebar-Starts */}
+          <RightMainSidebar />
+          {/* Main-Right-Sidebar-Ends */}
+        </div>
+      </Router>
       {/* Right-Side navigation Starts */}
       <Right_Nav />
       {/* Right-Side navigation Ends */}

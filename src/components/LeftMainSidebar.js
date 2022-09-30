@@ -150,7 +150,7 @@ function LeftMainSidebar({}) {
   return (
     <div class="col-md-3">
       <div class="main_sidebar_left">
-        <a href="#">NFT</a>
+        <div class="nav_icon">NFT</div>
         {dataServices.map((x) => (
           <LeftMainSidebarData
             data={x.data}

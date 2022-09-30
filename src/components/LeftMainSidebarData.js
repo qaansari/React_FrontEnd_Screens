@@ -11,7 +11,7 @@ function LeftMainSidebarData({
   FigThree,
 }) {
   return (
-    <a class="main_sidebar_links">
+    <div class="main_sidebar_links">
       <ul>
         <li>
           <i class={icon1}></i>
@@ -32,7 +32,7 @@ function LeftMainSidebarData({
           <p>{figure3}</p>
         </li>
       </ul>
-    </a>
+    </div>
   );
 }
 export default LeftMainSidebarData;

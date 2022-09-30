@@ -1,29 +1,34 @@
 import React from "react";
+import { Link } from "react-router-dom";
 function Left_Nav() {
   return (
     <div class="sidenav_left">
-      <a href="#">
+      <div class="nav_icon">
         <i class="fa fa-bars"></i>
-      </a>
-      <a href="#">
-        <i class="fa fa-btc"></i>
-      </a>
-      <a href="#">NFT</a>
-      <a href="#">
+      </div>
+      <div class="nav_icon">
+        <Link to={"/bitcoin"}>
+          <i class="fa fa-btc"></i>
+        </Link>
+      </div>
+      <div class="nav_icon">
+        <Link to={"/nft"}>NFT</Link>
+      </div>
+      <div class="nav_icon">
         <i class="fa fa-exchange"></i>
-      </a>
-      <a href="#">
+      </div>
+      <div class="nav_icon">
         <i class="fa fa-pie-chart"></i>
-      </a>
-      <a href="#">
+      </div>
+      <div class="nav_icon">
         <i class="fa fa-eye"></i>
-      </a>
-      <a href="#">
+      </div>
+      <div class="nav_icon">
         <i class="fa fa-globe"></i>
-      </a>
-      <a href="#">
+      </div>
+      <div class="nav_icon">
         <i class="fa fa-question-circle"></i>
-      </a>
+      </div>
     </div>
   );
 }

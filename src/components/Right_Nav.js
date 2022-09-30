@@ -1,34 +1,34 @@
 function Right_Nav({}) {
   return (
     <div class="sidenav_right">
-      <a href="#">
+      <div class="nav_icon">
         <i class="fa fa-power-off"></i>
-      </a>
-      <a href="#">
+      </div>
+      <div class="nav_icon">
         <i class="fa fa-history"></i>
-      </a>
-      <a href="#">
+      </div>
+      <div class="nav_icon">
         <i class="fa fa-th-list"></i>
-      </a>
-      <a href="#">
+      </div>
+      <div class="nav_icon">
         <i class="fa fa-comment"></i>
-      </a>
-      <a href="#">
+      </div>
+      <div class="nav_icon">
         <i class="fa fa-newspaper-o"></i>
-      </a>
-      <a href="#">
+      </div>
+      <div class="nav_icon">
         <i class="fa fa-bell"></i>
-      </a>
-      <a href="#">
+      </div>
+      <div class="nav_icon">
         <i class="fa fa-twitter"></i>
-      </a>
-      <a href="#">
+      </div>
+      <div class="nav_icon">
         <i class="fa fa-youtube-play"></i>
-      </a>
+      </div>
 
-      <a href="#">
+      <div class="nav_icon">
         <img src="assets/img/tiktok.png" class="tiktok" />
-      </a>
+      </div>
     </div>
   );
 }
