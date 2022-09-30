@@ -1,12 +1,18 @@
+import React from "react";
+
+
+
+
 function Right_Nav({}) {
   return (
     <div class="sidenav_right">
       <a href="#">
         <i class="fa fa-power-off"></i>
       </a>
-      <a href="#">
+      * <a href="#">
         <i class="fa fa-history"></i>
-      </a>
+      </a> *
+      
       <a href="#">
         <i class="fa fa-th-list"></i>
       </a>

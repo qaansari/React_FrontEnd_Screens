@@ -326,23 +326,23 @@ p {
 .h_1 {
   color: #fff;
   text-align: center;
-  margin-top: 2 px;
+  /* margin-top: 2 px; */
   /* background-color: #555; */
-  border-bottom: 1px solid #555;
+  /* border-bottom: 1px solid #555; */
 }
 
 .m_head {
   color: #fff;
   margin-right: 5px;
   font-size: 12px;
-  border-bottom: 1px solid #555;
+  /* border-bottom: 1px solid #555; */
   margin-left: 3px;
 }
 .hed {
   color: #0584f1;
   font-size: 20px;
   margin-top: 5px;
-  border-bottom: 1px solid #555;
+  /* border-bottom: 1px solid #555; */
   text-align: center;
 }
 /* hr{
@@ -372,7 +372,7 @@ p {
   color: #33ff33;
 }
 .h_f {
-  border-bottom: 1px solid #555;
+  /* border-bottom: 1px solid #555; */
 }
 .Main_sidenav_right {
   border: none;
