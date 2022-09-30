@@ -1,12 +1,32 @@
+import React, { Fragment } from "react";
+import RMSidebar from "./RMSidebar.js";
+
 function RightMainSidebar({}) {
+  const services = [
+    { White1: "009231.132545", Red1: 1009231.132545 },
+    { White1: "009231.132545", Red1: 1009231.132545 },
+    { White1: "009231.132545", Red1: 1009231.132545 },
+    { White1: "009231.132545", Red1: 1009231.132545 },
+    { White1: "009231.132545", Red1: 1009231.132545 },
+    { White1: "009231.132545", Red1: 1009231.132545 },
+    { White1: "009231.132545", Red1: 1009231.132545 },
+    { White1: "009231.132545", Red1: 1009231.132545 },
+    { White1: "009231.132545", Red1: 1009231.132545 },
+    { White1: "009231.132545", Red1: 1009231.132545 },
+    { Green: 1009231.132545, Red2: 1009231.132545 },
+    { Green: 1009231.132545, Red2: 1009231.132545 },
+    { Green: 1009231.132545, Red2: 1009231.132545 },
+    { Green: 1009231.132545, Red2: 1009231.132545 },
+    { Green: 1009231.132545, Red2: 1009231.132545 },
+  ];
+
   return (
     <div class="col-md-3">
       <div class="Main_sidenav_right">
         <div class="container h_1">
           <h3>History</h3>
         </div>
-        <h5 class="hed">ORDER BOOK</h5>
-
+        <h5 class="hed">Order Book</h5>
         <div class="row m_head">
           <div class="col-sm-6">
             <p>PRICE (USD)</p>
@@ -15,149 +35,21 @@ function RightMainSidebar({}) {
             <p>AMOUNT(UTC)</p>
           </div>
         </div>
-        <div class="row h_f">
-          <div class="col-sm-6">
-            <p class="p_1">009231.132545</p>
-          </div>
-          <div class="col-sm-4">
-            <p class="p_2">1009231.132545</p>
-          </div>
-        </div>
-        <div class="row h_f">
-          <div class="col-sm-6">
-            <p class="p_1">009231.132545</p>
-          </div>
-          <div class="col-sm-4">
-            <p class="p_2">1009231.132545</p>
-          </div>
-        </div>
-        <div class="row h_f">
-          <div class="col-sm-6">
-            <p class="p_1">009231.132545</p>
-          </div>
-          <div class="col-sm-4">
-            <p class="p_2">1009231.132545</p>
-          </div>
-        </div>
-        <div class="row h_f">
-          <div class="col-sm-6">
-            <p class="p_1">009231.132545</p>
-          </div>
-          <div class="col-sm-4">
-            <p class="p_2">1009231.132545</p>
-          </div>
-        </div>
-        <div class="row h_f">
-          <div class="col-sm-6">
-            <p class="p_1">009231.132545</p>
-          </div>
-          <div class="col-sm-4">
-            <p class="p_2">1009231.132545</p>
-          </div>
-        </div>
-        <div class="row h_f">
-          <div class="col-sm-6">
-            <p class="p_1">009231.132545</p>
-          </div>
-          <div class="col-sm-4">
-            <p class="p_2">1009231.132545</p>
-          </div>
-        </div>
-        <div class="row h_f">
-          <div class="col-sm-6">
-            <p class="p_1">009231.132545</p>
-          </div>
-          <div class="col-sm-4">
-            <p class="p_2">1009231.132545</p>
-          </div>
-        </div>
-        <div class="row h_f">
-          <div class="col-sm-6">
-            <p class="p_1">009231.132545</p>
-          </div>
-          <div class="col-sm-4">
-            <p class="p_2">1009231.132545</p>
-          </div>
-        </div>
-        <div class="row h_f">
-          <div class="col-sm-6">
-            <p class="p_1">009231.132545</p>
-          </div>
-          <div class="col-sm-4">
-            <p class="p_2">1009231.132545</p>
-          </div>
-        </div>
-        <div class="row h_f">
-          <div class="col-sm-6">
-            <p class="p_1">009231.132545</p>
-          </div>
-          <div class="col-sm-4">
-            <p class="p_2">1009231.132545</p>
-          </div>
-        </div>
-        <div class="row h_f">
-          <div class="col-sm-8">
-            <p class="p_4">009231.13254500000</p>
-          </div>
-          <div class="col-sm-2">
-            <p class="p_0">0.</p>
-          </div>
-        </div>
-        <div class="row h_f">
-          <div class="col-sm-6">
-            <p class="p_1">009231.132545</p>
-          </div>
-          <div class="col-sm-4">
-            <p class="p_3">1009231.132545</p>
-          </div>
-        </div>
-        <div class="row h_f">
-          <div class="col-sm-6">
-            <p class="p_1">009231.132545</p>
-          </div>
-          <div class="col-sm-4">
-            <p class="p_3">1009231.132545</p>
-          </div>
-        </div>
-        <div class="row h_f">
-          <div class="col-sm-6">
-            <p class="p_1">009231.132545</p>
-          </div>
-          <div class="col-sm-4">
-            <p class="p_3">1009231.132545</p>
-          </div>
-        </div>
-        <div class="row h_f">
-          <div class="col-sm-6">
-            <p class="p_1">009231.132545</p>
-          </div>
-          <div class="col-sm-4">
-            <p class="p_3">1009231.132545</p>
-          </div>
-        </div>
-        <div class="row h_f">
-          <div class="col-sm-6">
-            <p class="p_1">009231.132545</p>
-          </div>
-          <div class="col-sm-4">
-            <p class="p_3">1009231.132545</p>
-          </div>
-        </div>
-        <div class="row h_f">
-          <div class="col-sm-6">
-            <p class="p_1">009231.132545</p>
-          </div>
-          <div class="col-sm-4">
-            <p class="p_3">1009231.132545</p>
-          </div>
-        </div>
+
         <div class="row">
-          <div class="col-sm-6">
-            <p class="p_1">009231.132545</p>
-          </div>
-          <div class="col-sm-4">
-            <p class="p_3">1009231.132545</p>
-          </div>
+          {services.map((x) => (
+            <RMSidebar
+              // Main1={x.Main1}
+              // Main2={x.Main2}
+              // Heading1={x.Heading1}
+              // Heading2={x.Heading2}
+              White1={x.White1}
+              Red1={x.Red1}
+              // Red2={x.Red2}
+              Green={x.Green}
+              Red2={x.Red2}
+            />
+          ))}
         </div>
       </div>
     </div>
