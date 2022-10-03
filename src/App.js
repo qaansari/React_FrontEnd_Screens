@@ -37,6 +37,7 @@ function App() {
             <Route path="/" element={<Stats />}></Route>
             <Route path="/bitcoin" element={<Card />}></Route>
             <Route path="/nft" element={<Stats />}></Route>
+            <Route path="/form" element={<MyForm />}></Route>
           </Routes>
 
           {/* Main Card Ends */}

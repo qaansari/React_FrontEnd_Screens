@@ -3,8 +3,6 @@ function LeftMainSidebarData({
   figure1,
   figure2,
   figure3,
-  icon1,
-  icon2,
   MainText,
   FigOne,
   FigTwo,
@@ -13,12 +11,6 @@ function LeftMainSidebarData({
   return (
     <div class="main_sidebar_links">
       <ul>
-        <li>
-          <i class={icon1}></i>
-        </li>
-        <li>
-          <i class={icon2}></i>
-        </li>
         <li class={MainText}>
           <p>{data}</p>
         </li>

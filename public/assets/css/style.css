@@ -12,20 +12,29 @@ a:hover {
   text-decoration: none;
   color: #fff;
 }
+.head_logo {
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin-left: 10px;
+}
 section {
   overflow: hidden;
   background-color: #28282b;
 }
 p {
   margin-left: 5px;
+  margin-bottom: 0;
 }
 .top_head {
   background: #28282b;
   color: #fff;
   z-index: 99999;
-  /* height: 7vh; */
   text-align: center;
-  padding: 20px 0;
+  padding: 10px 0;
+  width: 100%;
+  position: relative;
+  position: fixed;
 }
 
 .sidenav_left .nav_icon:hover {
@@ -104,7 +113,6 @@ p {
 }
 
 .main_sidebar_left .nav_icon {
-  border-bottom: 1px solid #555;
   padding: 5px;
   text-decoration: none;
   font-size: 18px;
@@ -126,12 +134,13 @@ p {
 .main_sidebar_left .nav_icon:first-child {
   border: none !important;
   font-size: 36px;
-  top: -25px;
+  position: sticky;
+  top: -5px;
   padding: 0 20px 20px 20px;
   background-color: #555;
   text-align: center;
   font-weight: 800;
-  padding: 0 30px 20px 20px;
+  padding: 40px 30px 20px 20px;
 }
 
 .bookmark_ico {
@@ -256,9 +265,9 @@ p {
   text-align: center;
 }
 .main_card {
-  height: 800px;
+  margin-top: 100px;
+  height: 850px;
   background: #28282b;
-  top: 0;
   border: none;
 }
 
@@ -339,11 +348,13 @@ p {
   background-color: #555;
   text-align: center;
   font-weight: 800;
-  padding: 0 30px 20px 20px;
+  padding: 40px 30px 20px 20px;
   color: #fff;
+  position: sticky;
 }
 
 .m_head {
+  position: sticky;
   color: #fff;
   margin-right: 5px;
   font-size: 12px;
@@ -395,20 +406,22 @@ p {
   background: #28282b;
   color: #fff;
   z-index: 99999;
-  /* height: 7vh; */
   text-align: center;
-  padding: 20px 0;
+  padding: 10px 0;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }
 .footer_text {
   padding: 15px;
-  /* position: absolute; */
-  /* left: 880px; */
   color: #fff;
   text-align: center;
+  margin-left: 90px;
 }
 /* Card Wrappers */
 .main_card_wrapper {
-  height: 800px;
+  margin-top: 50px;
+  height: 850px;
   background-color: #28282b;
   top: 0;
   border-radius: 0;
@@ -451,10 +464,45 @@ p {
 .inp_num {
   width: 100px;
   padding: 5px;
+  margin-top: 5px;
 }
 .btn_mint {
   background: inherit;
   color: #fff;
   border: 1px solid #fff;
   border-radius: 5px;
+  margin-top: 5px;
+}
+.form_card {
+  width: 900px;
+}
+
+.Main_sidenav_right .nav_icon {
+  border: none !important;
+  position: sticky;
+  font-size: 36px;
+  top: -5px;
+  padding: 0 20px 20px 20px;
+  background-color: #555;
+  text-align: center;
+  font-weight: 800;
+  padding: 40px 30px 20px 20px;
+  color: #fff;
+}
+.Main_sidenav_right .ob_txt {
+  color: #fff;
+  font-size: 22px;
+  position: sticky;
+  border-bottom: 1px solid #555;
+  color: #0584f1;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.right_sub_txt {
+  color: #fff;
+  position: sticky;
+  border-bottom: 1px solid #555;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
 }
