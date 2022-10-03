@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 function Left_Nav() {
   return (
     <div class="sidenav_left">
-      <div class="nav_icon">
+      <div class="nav_icon tooltip">
         <i class="fa fa-bars"></i>
+        <span class="tooltiptext">Home</span>
       </div>
       <div class="nav_icon">
         <Link to={"/bitcoin"}>
